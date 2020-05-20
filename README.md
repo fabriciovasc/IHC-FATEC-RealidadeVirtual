@@ -1,18 +1,37 @@
-# `<model-viewer>` codelab
+Welcome to Glitch
+=================
 
-This is the starting template for a codelab giving a brief introduction to
-enhancing web pages with 3D content. Give it a try!
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-The codelab will take you through a few steps to take a basic HTML file
-(`index.html`) through adding a 3D model, and gradually adding more
-interactivity and changing how it looks.
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-# 3D models
+Find out more [about Glitch](https://glitch.com/about).
 
-We've included a few 3D models in the repo for you to try. Many more are
-available on sites like [Poly](https://poly.google.com) and
-[Sketchfab](https://sketchfab.com).
 
-# Notes
+Your Project
+------------
 
-This is not an officially supported Google product.
+### ← README.md
+
+That's this file, where you can tell people what your cool website does and how you built it.
+
+### ← index.html
+
+Where you'll write the content of your website. 
+
+### ← style.css
+
+CSS files add styling rules to your content.
+
+### ← script.js
+
+If you're feeling fancy you can add interactivity to your site with JavaScript.
+
+### ← assets
+
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
