@@ -21,5 +21,4 @@
      
    
 #### Visualização
-![](https://i.imgur.com/IztUqFI.gifv)
-
+https://i.imgur.com/IztUqFI.gifv
