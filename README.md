@@ -1,37 +1,24 @@
-Welcome to Glitch
-=================
+# IHC - Realidade Virtual - 3° Semestre A - ADS
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+### Informações acadêmicas
+- Orientador: Giuliano Bertoti
+- Equipe
+     - Fabrício Vasconcellos
+     - Jonatas dos Reis
+     - Samuel Xavier
+     - Rafael Ribeiro
+     - Vitor Amorim
+     
+### Entregas do projeto
+     
+#### 1° Quinzena de Maio
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+     Veja ao vivo em: https://testeihc.glitch.me
+   
+#### 1° Quinzena de Junho
 
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+     Veja ao vivo em: https://productive-ihc.glitch.me/
+     
+   
+#### Visualização
+![](https://i.imgur.com/1Ajgdme.png)
