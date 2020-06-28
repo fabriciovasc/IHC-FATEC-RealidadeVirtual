@@ -1,4 +1,5 @@
-# IHC - Realidade Virtual - 3° Semestre A - ADS
+Bem Vindo ao nosso Projeto de IHC - FATEC SJC - 2020
+=================
 
 ### Informações acadêmicas
 - Orientador: Giuliano Bertoti
@@ -8,17 +9,13 @@
      - Samuel Xavier
      - Rafael Ribeiro
      - Vitor Amorim
-     
-### Entregas do projeto
-     
-#### 1° Quinzena de Maio
 
-     Veja ao vivo em: https://testeihc.glitch.me
-   
-#### 1° Quinzena de Junho
+### :round_pushpin:
+### ← Veja nosso projeto no [Glitch](https://ihc-projeto2.glitch.me/)
+-------------------
 
-     Veja ao vivo em: https://productive-ihc.glitch.me/
-     
+    
    
 #### Visualização
-![](https://i.imgur.com/1Ajgdme.png)
+![](IztUqFI.gif)
+
