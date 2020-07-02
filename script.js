@@ -241,6 +241,20 @@ document.querySelector("#setaCima").addEventListener("click", function () {
   
 });
 
+document.querySelector("#girar").addEventListener("click", function () {
+//(seleção do objeto          +      aguardar até que ele seja clicado) 
+  
+  var el = document.querySelector("#aviao"); // criação de uma variavel e receber objeto
+  //el.object3D.visible= true; // alteração na propriedade ROTAÇÃO (eixo y). "eixo x = eixo x + 0.1"
+  el.object3D.rotation.y += 90;
+   var el = document.querySelector("#aparece");
+  
+   el.setAttribute('animation', 'property: position; dur: 1200; from: 0 0.1 0; to: 0 0.1 -0.1;loop: false;' ); 
+  el.setAttribute('animation', 'property: position; dur: 1000; from: 0 0.1 -0.1; to: 0 0.1 0;loop: false;easing: easeOutQuart;elasticity:5;' ); 
+  
+  
+});
+
 document.querySelector("#aparecer").addEventListener("click", function () {
 //(seleção do objeto          +      aguardar até que ele seja clicado) 
   
