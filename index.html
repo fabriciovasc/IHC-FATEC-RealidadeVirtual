@@ -14,6 +14,7 @@
     <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
     <script src="https://unpkg.com/aframe-animation-component@^4.1.2/dist/aframe-event-set-component.min.js"></script>
     <script src="https://unpkg.com/aframe-look-at-component@^0.5.1/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.1/dist/aframe-extras.min.js" ></script>
    
 <p hidden> contador2: <span id="count2">0</span></p>
     
@@ -181,7 +182,7 @@ src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%20
     <a-gltf-model id ="peca2_2" src="https://cdn.glitch.com/adc216fb-6484-4f79-aec3-18e39ebae3a2%2Fcalda%20avi%C3%A3o.glb?v=1591919802337" position = "10.2 1.5 -1" rotation="0 0 0" scale="4 4 4" visible="false"> </a-gltf-model>   <!--"shadow="cast: true" habilita sombra dinamica -->
     <a-gltf-model id ="peca3_3" src="https://cdn.glitch.com/adc216fb-6484-4f79-aec3-18e39ebae3a2%2Fcorpo%20avi%C3%A3o.glb?v=1591919813807" position = "10.2 1.5 -1" rotation="0 0 0" scale=" 4 4 4" visible="false"> </a-gltf-model>  <!--"shadow="cast: true" habilita sombra dinamica -->
     <a-gltf-model id ="peca4_4" src="https://cdn.glitch.com/adc216fb-6484-4f79-aec3-18e39ebae3a2%2Fhelice.glb?v=1591919826343" position = "10.2 1.5 -1" rotation="0 0 0" scale="4 4 4" visible="false"  > </a-gltf-model> 
-    <a-gltf-model id ="aviao" src="https://cdn.glitch.com/adc216fb-6484-4f79-aec3-18e39ebae3a2%2Favi%C3%A3o.glb?v=1593305104890" position = "0.2 1.5 -1" rotation="0 0 0" scale="5 5 5" visible="true"  > </a-gltf-model> 
+    <!--<a-gltf-model id ="aviao" src="https://cdn.glitch.com/adc216fb-6484-4f79-aec3-18e39ebae3a2%2Favi%C3%A3o.glb?v=1593305104890" position = "0.2 1.5 -1" rotation="0 0 0" scale="5 5 5" visible="false"  > </a-gltf-model>-->
     
     
     <!-- "shadow="cast: true" habilita sombra dinamica -->
@@ -223,9 +224,18 @@ src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%20
       ></a-gltf-model>
     
     <a-gltf-model
+                id="girar"
+                src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/arrow-left.gltf"
+                position="1.2 0.05 0"
+                rotation="0 0 0"
+                scale="1 1 1"
+                visible="true"
+      ></a-gltf-model>
+    
+    <a-gltf-model
                 id="aparecer"
                 src="https://cdn.glitch.com/db489dbe-6eab-4aa3-85e2-d5623c8272d1%2Fbtngreen.glb?v=1590817992293"
-                position="0.6 0.3 0.9"
+                position="-2.8 1.7 -0.35"
                 rotation="0 0 0"
                 scale="1.5 1.5 1.5"
                 visible="true"
@@ -234,11 +244,26 @@ src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%20
     <a-gltf-model
                 id="desaparecer"
                 src="https://cdn.glitch.com/db489dbe-6eab-4aa3-85e2-d5623c8272d1%2Fbtnred.glb?v=1590818021302"
-                position="1 0.3 0.9"
-                rotation="0 0 0"
+                position="-2.3 1.8 -0.35"
+                rotation="0 0 180"
                 scale="1.5 1.5 1.5"
                 visible="true"
       ></a-gltf-model>
+    
+    <a-entity id="aviao"
+                    obj-model="obj:#airplane-o; mtl:#airplane-m" 
+                    position="0 1.5 0"
+                    rotation="0 90 0"
+                    scale="0.5 0.5 0.5"
+                    visible="true">
+                   <a-animation 
+                                    atribute = "rotation"
+                                    repeat = "indefinite"
+                                    to = "0 360 0"
+                                    dur = "5000"
+                                    easing = "linear">
+                        </a-animation>
+          </a-entity>
 
     
 <!----------------------------------- -->     
@@ -255,6 +280,9 @@ src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%20
    </a-asset-item>
     <a-asset-item id ="hangarViga" src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/Estrutura-vigas.gltf" scale="1 1 1" visible="true"> 
    </a-asset-item>
+    
+    <a-asset-item id="airplane-o" src="https://cdn.glitch.com/31cf88fd-d7ca-4e0f-86a0-068d99aced09%2Fairplane.obj?v=1592782434270"></a-asset-item>
+    <a-asset-item id="airplane-m" src="https://cdn.glitch.com/31cf88fd-d7ca-4e0f-86a0-068d99aced09%2Fmaterials.mtl?v=1592782444921"></a-asset-item>
     
 <!----------------------------------- -->        
       
@@ -451,9 +479,9 @@ src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%20
    </button3>  -->
 <!--=============================================================--> 
     
-    <a-camera>
+    <!--<a-camera>
               <a-cursor></a-cursor>
-            </a-camera>
+            </a-camera>-->
     </a-scene>
   </body>
 </html>
